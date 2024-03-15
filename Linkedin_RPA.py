@@ -968,7 +968,7 @@ def mensagem_final():
         tamanho_botao = (15,2)
 
         layout = [
-            [sg.Column([[sg.Image(r'logo\logo-assinatura.png')]], justification='center')],
+            # [sg.Column([[sg.Image(r'logo\logo-assinatura.png')]], justification='center')],
 
             [sg.Column([[sg.Text('Processo Finalizado!',font=('Calibri', 14 ,'bold'))]], justification='center')],
             [sg.Column([[sg.Text(f'Confira a planilha {nome_planilha} na pasta do programa.',font=('Helvetica', 12, 'bold'))]], justification='center')],
